@@ -2,7 +2,7 @@ name: GHCR 빌드 및 EC2 배포
 
 on:
   push:
-#    branches: [ main ]
+    branches: [ main ]
 
 env:
   REGISTRY: ghcr.io
