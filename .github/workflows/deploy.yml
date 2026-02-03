@@ -3,6 +3,7 @@ name: GHCR 빌드 및 EC2 배포
 on:
   push:
     branches: [ main ]
+  workflow_dispatch:
 
 env:
   REGISTRY: ghcr.io
